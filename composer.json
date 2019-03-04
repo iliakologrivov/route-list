@@ -1,0 +1,38 @@
+{
+  "name": "iliakologrivov/route-list",
+  "description": "Laravel Route:list console command",
+  "keywords": [
+    "laravel",
+    "route",
+    "list",
+    "column"
+  ],
+  "authors": [
+    {
+      "name": "Ilia Kologrivov",
+      "email": "iliakologrivov@yandex.ru"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0",
+    "laravel/framework": "~5"
+  },
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+      "Iliakologrivov\\Routelist\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Iliakologrivov\\Routelist\\RouteListServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "prefer-stable": true,
+  "minimum-stability": "dev"
+}
